@@ -5,6 +5,11 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import { CiCalendarDate } from "react-icons/ci";
+
+
+import "react-vertical-timeline-component/style.min.css";
+
 import Flag from 'react-world-flags'
 
 const a = <Flag code="DE" />
@@ -12,20 +17,63 @@ const a = <Flag code="DE" />
 function App() {
   return (
     <div className="Container">
-      <VerticalTimeline animate={false} lineColor="#8CC0DE">
+      <VerticalTimeline animate={true} lineColor="#8CC0DE">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2016/9/10"
-          // iconStyle={{ background: "#BAD7E9", color: "#fff" }}
-          icon={<Flag code="DE" />}
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<CiCalendarDate />}
         >
-          <h3 className="vertical-timeline-element-title">在德國相遇</h3>
+          <h3 className="vertical-timeline-element-title">我們相遇</h3>
             <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              放一句浪漫的德文
             </p>
+          <img
+            className="image"
+            src="https://img-19.commentcamarche.net/cI8qqj-finfDcmx6jMK6Vr-krEw=/1500x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg"
+          />
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#F8EDE3", color: "black" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        date="2016/9/10"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        icon={<FaBeer />}
+      >
+        <h3 className="vertical-timeline-element-title">第一次下廚：醬油滷雞腿</h3>
+        <p className="content">
+            食譜：用電鍋滷雞腿，把雞腿洗淨，把整整兩罐醬油到倒電鍋，另外還加了冰糖跟水、少許鹽巴提味。
+        </p>
+      </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#F8EDE3", color: "black" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2016/9/10"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaBeer />}
+        >
+          <h3 className="vertical-timeline-element-title">開始交往</h3>
+          <p className="content">
+          <img
+            className="image"
+            src="https://img-19.commentcamarche.net/cI8qqj-finfDcmx6jMK6Vr-krEw=/1500x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg"
+          />
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#F8EDE3", color: "black" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2016/9/10"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaBeer />}
+        >
+          <h3 className="vertical-timeline-element-title">回台灣</h3>
+          <p>行李超重？簽證過期？</p>
           <img
             className="image"
             src="https://img-19.commentcamarche.net/cI8qqj-finfDcmx6jMK6Vr-krEw=/1500x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg"
@@ -39,36 +87,7 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">決定再一起</h3>
-          <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">第一次下廚</h3>
-          <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">回台灣生活</h3>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">故宮南院吉祥物4ni?</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -79,41 +98,10 @@ function App() {
           icon={<FaBeer />}
         >
           <h3 className="vertical-timeline-element-title">
-            高雄與台北的遠距離
-          </h3>
-            <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">故宮博物院當打雜</h3>
-          <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            同居在3坪大的西門套房
+            4坪住兩個胖子？
           </h3>
           <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              猜猜在西門町住這樣多少錢？
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -124,12 +112,9 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">
-            同居在3坪大的西門套房
-          </h3>
+          <h3 className="vertical-timeline-element-title">改住內湖了啦！</h3>
           <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+            終於有地方走路了
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -140,10 +125,9 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">搬到內湖</h3>
+          <h3 className="vertical-timeline-element-title">2020 HAPPY NEW YEAR!!!</h3>
           <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            鼠年行大運！鼠錢鼠不完！
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -154,10 +138,19 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">疫情爆發</h3>
+          <h3 className="vertical-timeline-element-title">疫情大爆發</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#F8EDE3", color: "black" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2016/9/10"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaBeer />}
+        >
+          <h3 className="vertical-timeline-element-title">求婚 v.s. 被求婚</h3>
           <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+              結果定情曲播錯首!?
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -168,10 +161,9 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">求婚</h3>
+          <h3 className="vertical-timeline-element-title">鮑郁瑾生日當天跑去登記結婚</h3>
           <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              2021/11/30
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -182,10 +174,9 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">拍婚照</h3>
+          <h3 className="vertical-timeline-element-title">雙方家長此生首度相見</h3>
           <p className="content">
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+            感謝爸爸媽媽 * 2 與哥哥姊姊的支持
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -196,51 +187,7 @@ function App() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBeer />}
         >
-          <h3 className="vertical-timeline-element-title">雙方家長相見歡</h3>
-          <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">決定辦婚禮</h3>
-          <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            最後還是決定不辦婚禮了
-          </h3>
-          <p className="content">
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
-        >
-          <h3 className="vertical-timeline-element-title">吃喜餅就好＾＾</h3>
+          <h3 className="vertical-timeline-element-title">我們結婚一週年，請大家吃喜餅 </h3>
           <p className="content">
             Creative Direction, User Experience, Visual Design, SEO, Online
             Marketing
