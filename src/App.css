@@ -49,3 +49,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Container .vertical-timeline-element-icon svg{
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.Container .vertical-timeline-element-content{
+  border-radius: 3.25em;
+}

@@ -6,13 +6,20 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import { CiCalendarDate } from "react-icons/ci";
+import { GiCookingPot, GiShakingHands, GiGlassCelebration, GiCookie, GiSeatedMouse } from "react-icons/gi";
+import { ImAirplane } from "react-icons/im";
+import { SiHappycow } from "react-icons/si";
+import { GiFat } from "react-icons/gi";
+import { FaPeopleCarry, FaSlideshare, FaRunning } from "react-icons/fa";
+import { TbFaceMask } from "react-icons/tb";
+import { MdFamilyRestroom } from "react-icons/md";
+
+
+
+
 
 
 import "react-vertical-timeline-component/style.min.css";
-
-import Flag from 'react-world-flags'
-
-const a = <Flag code="DE" />
 
 function App() {
   return (
@@ -21,9 +28,9 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<CiCalendarDate />}
         >
           <h3 className="vertical-timeline-element-title">我們相遇</h3>
@@ -38,10 +45,10 @@ function App() {
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#F8EDE3", color: "black" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
         date="2016/9/10"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<FaBeer />}
+        iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+        icon={<GiCookingPot />}
       >
         <h3 className="vertical-timeline-element-title">第一次下廚：醬油滷雞腿</h3>
         <p className="content">
@@ -51,10 +58,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<GiShakingHands />}
         >
           <h3 className="vertical-timeline-element-title">開始交往</h3>
           <p className="content">
@@ -67,10 +74,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<ImAirplane />}
         >
           <h3 className="vertical-timeline-element-title">回台灣</h3>
           <p>行李超重？簽證過期？</p>
@@ -82,20 +89,20 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<SiHappycow />}
         >
           <h3 className="vertical-timeline-element-title">故宮南院吉祥物4ni?</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<GiFat />}
         >
           <h3 className="vertical-timeline-element-title">
             4坪住兩個胖子？
@@ -107,10 +114,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<FaPeopleCarry />}
         >
           <h3 className="vertical-timeline-element-title">改住內湖了啦！</h3>
           <p className="content">
@@ -120,10 +127,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<GiSeatedMouse />}
         >
           <h3 className="vertical-timeline-element-title">2020 HAPPY NEW YEAR!!!</h3>
           <p className="content">
@@ -133,20 +140,20 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<TbFaceMask />}
         >
           <h3 className="vertical-timeline-element-title">疫情大爆發</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<FaSlideshare />}
         >
           <h3 className="vertical-timeline-element-title">求婚 v.s. 被求婚</h3>
           <p className="content">
@@ -156,10 +163,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<FaRunning />}
         >
           <h3 className="vertical-timeline-element-title">鮑郁瑾生日當天跑去登記結婚</h3>
           <p className="content">
@@ -169,10 +176,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<MdFamilyRestroom />}
         >
           <h3 className="vertical-timeline-element-title">雙方家長此生首度相見</h3>
           <p className="content">
@@ -182,10 +189,10 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaBeer />}
+          iconStyle={{ background: "#EAC7C7", color: "#fff"}}
+          icon={<GiCookie />}
         >
           <h3 className="vertical-timeline-element-title">我們結婚一週年，請大家吃喜餅 </h3>
           <p className="content">
