@@ -28,7 +28,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<CiCalendarDate />}
@@ -45,7 +45,7 @@ function App() {
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#F8EDE3", color: "black" }}
-        contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+        // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
         date="2016/9/10"
         iconStyle={{ background: "#EAC7C7", color: "#fff"}}
         icon={<GiCookingPot />}
@@ -58,7 +58,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<GiShakingHands />}
@@ -74,7 +74,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<ImAirplane />}
@@ -89,7 +89,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<SiHappycow />}
@@ -99,7 +99,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<GiFat />}
@@ -114,7 +114,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<FaPeopleCarry />}
@@ -127,7 +127,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<GiSeatedMouse />}
@@ -140,7 +140,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<TbFaceMask />}
@@ -150,7 +150,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<FaSlideshare />}
@@ -163,7 +163,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<FaRunning />}
@@ -176,7 +176,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<MdFamilyRestroom />}
@@ -189,7 +189,7 @@ function App() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F8EDE3", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
+          // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
           date="2016/9/10"
           iconStyle={{ background: "#EAC7C7", color: "#fff"}}
           icon={<GiCookie />}

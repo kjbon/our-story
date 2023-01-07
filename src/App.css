@@ -52,12 +52,12 @@
 
 
 .Container .vertical-timeline-element-icon svg{
-  width: 40px;
-  height: 40px;
-  margin-left: -20px;
-  margin-top: -20px;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
 }
 
 .Container .vertical-timeline-element-content{
-  border-radius: 3.25em;
+  border-radius: 2.25em;
 }
