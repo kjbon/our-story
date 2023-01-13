@@ -1,6 +1,6 @@
-*{
-  /* outline: 1px solid red; */
-}
+/* *{
+  outline: 1px solid red;
+} */
 .App {
   text-align: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .Container{
-  background-color: #FEFCF3;
+  background-color: #fdf0ec;
 }
 .App-logo {
   height: 40vmin;
@@ -60,4 +60,17 @@
 
 .Container .vertical-timeline-element-content{
   border-radius: 2.25em;
+}
+
+.landing{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  background-size: 100%;
+}
+
+.vertical-timeline-element-content-arrow{
+  display: none;
 }
