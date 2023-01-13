@@ -22,6 +22,14 @@ import lucky from './images/IMG_4741.jpg';
 import we from './images/IMG_5784.jpg';
 import we2 from './images/IMG_6192.jpg';
 import we3 from './images/IMG_4916.jpg';
+import i1 from './images/1.jpg';
+import i2 from './images/2.jpg';
+import i3 from './images/3.jpg';
+import i5 from './images/5.jpg';
+import i6 from './images/6.jpg';
+import i8 from './images/8.jpg';
+import i9 from './images/9.jpg';
+
 
 import covid from './images/IMG_9121.jpg';
 import ring from './images/IMG_6065.jpg';
@@ -64,7 +72,7 @@ function App() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Sept. 2016"
+          date="September, 2016"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<CiCalendarDate />}
         >
@@ -72,16 +80,18 @@ function App() {
             <p className="content">
               Glücklich ist da, wo Du bist Liebling!
             </p>
+          <div>
           <img
             className="image"
             src={meet }
           />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: cardColor, color: "black" }}
         // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-        date="2016/9/10"
+        date="October, 2016"
         iconStyle={{ background: iconColor, color: "#fff"}}
         icon={<GiCookingPot />}
       >
@@ -89,54 +99,60 @@ function App() {
         <p className="content">
             食譜：用電鍋滷雞腿，把雞腿洗淨，把整整兩罐醬油到倒電鍋，另外還加了冰糖跟水、少許鹽巴提味。
         </p>
+        <div>
         <img
         className="image"
         src={cooking}
       />
+        </div>
       </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Oct. 2016"
+          date="November, 2016"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<GiShakingHands />}
         >
           <h3 className="vertical-timeline-element-title">開始交往</h3>
-          <p className="content">
-          <img
-            className="image"
-            src={dating}
-          />
-          </p>
+          <div>
+            <img
+              className="image"
+              src={dating}
+            />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Nov. 2016"
+          date="September, 2017"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<ImAirplane />}
         >
           <h3 className="vertical-timeline-element-title">回台灣</h3>
           <p>行李超重？簽證過期？</p>
+          <div>
           <img
             className="image"
             src={backtotaiwan}
           />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
-          date="Sept, 2017"
+          date="July, 2018"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<SiHappycow />}
         >
           <h3 className="vertical-timeline-element-title">故宮南院吉祥物4ni?</h3>
-          <img
-          className="image"
-          src={lucky}
-        />
+          <div>
+            <img
+              className="image"
+              src={lucky}
+            />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -151,31 +167,34 @@ function App() {
           <p className="content">
             台北好冷
           </p>
+          <div>
           <img
           className="image"
           src={cold}
         />
-          
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Dec, 2019"
+          date="December, 2019"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<TbFaceMask />}
         >
           <h3 className="vertical-timeline-element-title">疫情大爆發</h3>
+          <div>
           <img
-            className="image"
-            src={covid}
-          />
+          className="image"
+          src={covid}
+        />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="2020/12/25"
+          date="25, December, 2020"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<FaSlideshare />}
         >
@@ -188,33 +207,34 @@ function App() {
             className="image"
             src={we2}
           />
-          </div>
-          
-        <img
+          <img
           className="image"
           src={we}
         />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="2021/11/30"
+          date="30, November, 2021"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<FaRunning />}
         >
           <h3 className="vertical-timeline-element-title">鮑郁瑾生日當天跑去登記結婚</h3>
           <p className="content">
           </p>
+          <div>
           <img className="image" src={ring} alt=""/>
           <img className="image" src={we3} alt=""/>
+          </div>
           
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Jan, 2022"
+          date="January, 2022"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<MdFamilyRestroom />}
         >
@@ -222,10 +242,12 @@ function App() {
           <p className="content">
             感謝爸爸媽媽 * 2 與哥哥姊姊的支持
           </p>
+          <div>
           <img
           className="image"
           src={parent}
         />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -236,11 +258,62 @@ function App() {
           icon={<GiCookie />}
         >
           <h3 className="vertical-timeline-element-title">我們結婚一週年，請大家吃喜餅 </h3>
+          <div>
+          <p></p>
+            <img
+            className="image"
+            src={ccc}
+          />
+          </div>
+          <div>
+          <p></p>
           <img
-          className="image"
-          src={ccc}
-        />
-          
+            className="image"
+            src={i1}
+            />
+          </div>
+          <div>
+          <p></p>
+          <img
+              className="image"
+              src={i2}
+            />
+          </div>
+          <div>
+          <p></p>
+          <img
+              className="image"
+              src={i3}
+            />
+          </div>
+            <div>
+          <p></p>
+          <img
+              className="image"
+              src={i5}
+            />
+          </div>
+          <div>
+          <p></p>
+          <img
+              className="image"
+              src={i6}
+            />
+          </div>
+          <div>
+          <p></p>
+            <img
+              className="image"
+              src={i8}
+            />
+          </div>
+          <div>
+            <p></p>
+            <img
+              className="image"
+              src={i9}
+            />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
