@@ -13,20 +13,20 @@ import { GiFat } from "react-icons/gi";
 import { FaPeopleCarry, FaSlideshare, FaRunning } from "react-icons/fa";
 import { TbFaceMask } from "react-icons/tb";
 import { MdFamilyRestroom } from "react-icons/md";
-import meet from './images/IMG_5902.jpeg';
-import wedding from './images/FAA00152.jpeg';
-import cooking from './images/2016.jpeg';
-import dating from './images/IMG_3066.jpeg';
-import backtotaiwan from './images/IMG_2098.JPG';
-import lucky from './images/IMG_4741.JPG';
+import meet from './images/IMG_5902.jpg';
+import wedding from './images/FAA00152.jpg';
+import cooking from './images/2016.jpg';
+import dating from './images/IMG_3066.jpg';
+import backtotaiwan from './images/IMG_2098.jpg';
+import lucky from './images/IMG_4741.jpg';
 import we from './images/IMG_5784.jpg';
-import we2 from './images/IMG_6192.JPG';
+import we2 from './images/IMG_6192.jpg';
 import we3 from './images/IMG_4916.jpg';
 
 import covid from './images/IMG_9121.jpg';
 import ring from './images/IMG_6065.jpg';
 import parent from './images/IMG_7820.jpg';
-import ccc from './images/ffff.jpeg';
+import ccc from './images/ffff.jpg';
 import cold from './images/cold.jpg';
 
 
