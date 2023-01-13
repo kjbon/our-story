@@ -36,26 +36,8 @@ import ring from './images/IMG_6065.jpg';
 import parent from './images/IMG_7820.jpg';
 import ccc from './images/ffff.jpg';
 import cold from './images/cold.jpg';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import "react-vertical-timeline-component/style.min.css";
+
 
 function App() {
   const cardColor = '#FFE4E1'
@@ -178,7 +160,7 @@ function App() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="December, 2019"
+          // date="December, 2019"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<TbFaceMask />}
         >
@@ -253,7 +235,7 @@ function App() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: cardColor, color: "black" }}
           // contentArrowStyle={{ borderRight: "7px solid #F8EDE3" }}
-          date="Now"
+          // date="Now"
           iconStyle={{ background: iconColor, color: "#fff"}}
           icon={<GiCookie />}
         >
@@ -276,14 +258,14 @@ function App() {
           <p></p>
           <img
               className="image"
-              src={i2}
+              src={i3}
             />
           </div>
           <div>
           <p></p>
           <img
               className="image"
-              src={i3}
+              src={i2}
             />
           </div>
             <div>
