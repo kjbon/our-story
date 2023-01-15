@@ -45,10 +45,12 @@ function App() {
   const lineColor = '#804f42'
   return (
     <div className="Container">
-      <img
-        className="landing"
-        src={wedding}
-      />
+    <div>
+      <div id="section01" class="demo">
+        <div className="openingTxt">Let's do it!</div>
+      </div>
+    </div>
+      
       <VerticalTimeline animate={true} lineColor={lineColor}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
