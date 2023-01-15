@@ -11,6 +11,7 @@ import { ImAirplane } from "react-icons/im";
 import { SiHappycow } from "react-icons/si";
 import { GiFat } from "react-icons/gi";
 import { FaPeopleCarry, FaSlideshare, FaRunning } from "react-icons/fa";
+import { IoIosArrowDropdown } from "react-icons/io";
 import { TbFaceMask } from "react-icons/tb";
 import { MdFamilyRestroom } from "react-icons/md";
 import meet from './images/IMG_5902.jpg';
@@ -48,6 +49,7 @@ function App() {
     <div>
       <div id="section01" class="demo">
         <div className="openingTxt">Let's do it!</div>
+        <div className="arrow"><IoIosArrowDropdown /></div>
       </div>
     </div>
       
